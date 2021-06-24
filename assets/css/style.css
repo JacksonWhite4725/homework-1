@@ -8,6 +8,18 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Makes all links white*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Sets font size for all paragraph elements*/
+p {
+    font-size: 16px;
+}
+
+/*Styles the navigation bar*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +27,18 @@ body {
     color: #ffffff;
 }
 
+/*Styles the brand name in the navigation bar*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Adjusts the color of "seo" in the title within the navigation bar*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Styles the group of links within the navigation bar*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +47,18 @@ body {
     font-size: 20px;
 }
 
+/*Prevents links from being displayed vertically*/
 .header div ul {
     list-style-type: none;
 }
 
+/*Styles each individual link's spacing*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*Generates our background image. Title tag included in HTML for accessibility*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +68,85 @@ p {
     background-position: center;
 }
 
+/*Causes an image or block of text to be placed left within a section*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Causes an image or block of text to be placed right within a section*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Generates the section on the left*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Styles the search engine optimization div within the content section*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Styles the online reputation management div within the content section*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Styles the social media marketing div within the content section*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Next three CSS elements adjust the images within the divs described above*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Next three CSS elements adjust the h2 tags within the divs described above*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Generates the section on the right*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,21 +158,25 @@ p {
     background-color: #2589bd;
 }
 
+/*Styles the lead generation div in the benefits section*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Styles the brand awareness div in the benefits section*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Styles the cost management div in the benefits section*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Next three CSS elements adjust the h3 elements within the divs described above*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +192,7 @@ p {
     text-align: center;
 }
 
+/*Next three CSS elements adjust the img elements within the divs described above*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,60 +211,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*Styles the footer*/
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +219,7 @@ p {
     text-align: center;
 }
 
+/*Styles the h2 tag within the footer*/
 .footer h2 {
     font-size: 20px;
 }
